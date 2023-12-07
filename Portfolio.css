@@ -206,7 +206,7 @@ nav a:hover::after {
 
 .service-list h2 {
     font-size: 30px;
-    color: ;
+
 }
 
 .service-list a {
@@ -411,7 +411,7 @@ nav .small_screen_nav{
     /* Header Part */
 
     .header{
-        background-image: url(../portfolio-imgs/me.jpg);
+        background-image: url(./portfolio-imgs/me.jpg);
         color: #080808;
     }
     .main_text{
