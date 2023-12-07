@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Ubuntu:ital@0;1&display=swap');
 
 
@@ -7,7 +6,7 @@
     margin: 0;
     /* font-family: 'Poppins', sans-serif; */
     font-family: 'Poppins', sans-serif;
-font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     box-sizing: border-box;
 }
 
@@ -31,7 +30,7 @@ body {
 
 .container h1 {
     font-size: 40px;
-    margin:auto;
+    margin: auto;
 }
 
 nav {
@@ -213,7 +212,7 @@ nav a:hover::after {
     font-weight: 800;
     font-size: 18px;
     text-decoration: none;
-    background-image: linear-gradient(to left, rgb(4, 184, 255), rgb(12, 87, 117), rgb(99, 99, 255), rgb(87, 87, 192), rgb(28, 109, 109), rgb(28, 93, 93), blue );
+    background-image: linear-gradient(to left, rgb(4, 184, 255), rgb(12, 87, 117), rgb(99, 99, 255), rgb(87, 87, 192), rgb(28, 109, 109), rgb(28, 93, 93), blue);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
@@ -337,59 +336,69 @@ nav a:hover::after {
 
 /* -------------------Contact Section-----------------------------  */
 
-.contact{
-    padding:90px 90px;
+.contact {
+    padding: 90px 90px;
     height: 100vh;
 }
+
 .social-media img {
     width: 40px;
     margin: 20px 0;
     margin-right: 15px;
     display: inline-block;
-    transition:.5s;
+    transition: .5s;
 }
-.social-media img:hover{
+
+.social-media img:hover {
     transform: translateY(-8px);
     /* rotate:-360deg; */
 }
+
 .right-contact {
     width: 60%;
 }
+
 .left-contact {
     width: 40%;
     margin-top: 50px;
 }
-.left-contact p{
+
+.left-contact p {
     margin-top: 30px;
 }
-.left-contact p img{
+
+.left-contact p img {
     width: 20px;
     margin: 0px 15px 0 5px;
 }
-.btn.btns{
+
+.btn.btns {
     display: inline-block;
     background-color: #1eecff;
     color: black;
     cursor: pointer;
 }
-form input, form textarea{
+
+form input,
+form textarea {
     width: 100%;
     border: 0;
     margin: 10px 0;
     background: #262626;
-    padding:15px ;
-    outline:none;
+    padding: 15px;
+    outline: none;
     font-size: 18px;
     color: #ffffff;
     border-radius: 8px;
-} 
-form .btns{
+}
+
+form .btns {
     margin-top: 0;
 }
 
 /* -------------------Footer Section-----------------------------  */
 
-footer{
+footer {
     width: 100%;
     text-align: center;
     padding: 10PX;
@@ -400,43 +409,53 @@ footer{
 
 /* ---------------------For small Screen----------------------   */
 
-nav .small_screen_nav{
+nav .small_screen_nav {
     display: none;
 }
- 
+
 @media only screen and (max-width:900px) {
-    .container{
-        padding:10px 8%;
+    .container {
+        padding: 10px 8%;
     }
+
     /* Header Part */
 
-    .header{
+    .header {
         background-image: url(./portfolio-imgs/me.jpg);
         color: #080808;
     }
-    .main_text{
-        margin-top:15%;
+
+    .main_text {
+        margin-top: 15%;
         font-size: 15px;
         font-weight: 800;
     }
-    .main_text h1{
-        font-weight: 1000;
-        font-size: 35px;
-        width: 50%;
-        margin-right:500px;
+    .main_text p {
+        font-size: 20px;
     }
-    nav .small_screen_nav{
+
+    .main_text h1 {
+        font-weight: 1000;
+        font-size: 45px;
+        width: 50%;
+        margin-right: 500px;
+    }
+
+    nav .small_screen_nav {
         display: block;
     }
-    nav .small_screen_nav.menu.img{
+
+    nav .small_screen_nav.menu.img {
         width: 25px;
         cursor: pointer;
     }
-    nav .small_screen_nav.img{
+
+    nav .small_screen_nav.img {
         width: 35px;
         cursor: pointer;
     }
-    nav ul{
+
+    nav ul {
         margin-top: 10;
         position: fixed;
         background-color: #1eecffeb;
@@ -450,75 +469,88 @@ nav .small_screen_nav{
         transition: width .4s;
         /* display: none; */
     }
-    nav ul li{
+
+    nav ul li {
         display: block;
         margin: 25px;
     }
-    nav ul .small_screen_nav.img{
-        position:absolute;
+
+    nav ul .small_screen_nav.img {
+        position: absolute;
         top: 20px;
         left: 15px;
     }
 
     /* About Section */
 
-    .about{
-        display:block;
+    .about {
+        display: block;
     }
-    .about-col-1 img{
+
+    .about-col-1 img {
         display: none;
     }
-    .about-col-2{
+
+    .about-col-2 {
         width: 100%;
     }
-    .about-col-2 h1{
+
+    .about-col-2 h1 {
         font-size: 30px;
     }
 
 
     /* Contact Section  */
-    .contact{
-        padding:5px 5px;
+    .contact {
+        padding: 5px 5px;
         height: 500px;
     }
-    .contact h1{
+
+    .contact h1 {
         font-size: 30px;
         width: 100%;
     }
+
     .social-media img {
         width: 30px;
         margin-right: 15px;
     }
+
     .right-contact {
         width: 48%;
         margin-top: 20px;
     }
+
     .left-contact {
         width: 50%;
         margin-top: 50px;
     }
-    .left-contact p{
+
+    .left-contact p {
         font-size: 15px;
         margin-top: 15px;
     }
-    .left-contact p img{
+
+    .left-contact p img {
         width: 15px;
         margin: 0px 10px 0 10px;
     }
 
-    form input, form textarea{
+    form input,
+    form textarea {
         margin: 10px 0;
-        padding:8px ;
+        padding: 8px;
         font-size: 15px;
-        
-    } 
+
+    }
 
     /* Portfolio Section */
 
-    .portfolio h1{
+    .portfolio h1 {
         font-size: 30px;
     }
-    .work-image{
+
+    .work-image {
         width: 80%;
         margin: 0px 0;
         height: 100%;
