@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="Portfolio.css">
+</head>
+
+<body>
+    <!-- -------------------------header section----------------------- -->
+
+    <header>
+        <div class="header">
+            <div class="container">
+                <nav>
+                    <img src="../portfolio-imgs/logo2.png" alt="" class="logo">
+                    <ul id="menubar">
+                        <li class="NAV_LI"><a href="#">Home</a></li>
+                        <li class="NAV_LI"><a href="#">About</a></li>
+                        <li class="NAV_LI"><a href="#">Services</a></li>
+                        <li class="NAV_LI"><a href="#">Portfolio</a></li>
+                        <li class="NAV_LI"><a href="#">Contact</a></li>
+                        <img src="https://cdn1.iconfinder.com/data/icons/line-awesome-vol-6/32/times-solid-64.png"
+                            alt="" class="small_screen_nav li img" onclick="closenav()">
+                    </ul>
+                    <img src="https://cdn4.iconfinder.com/data/icons/essentials-71/24/047_-_Menu-64.png" alt=""
+                        class="small_screen_nav menu img" onclick="opennav()">
+                </nav>
+
+                <div class="main_text">
+                    <p>Web Developer / Video Editor / Freelancer</p>
+                    <h1>Myself <span>KUSH</span> from india</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ---------------------About section------------------------------- -->
+
+    <main>
+        <div class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="../portfolio-imgs/me.jpg" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1>know More About Me</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor totam quas cum quidem
+                            voluptatem illo cumque. Vitae velit laudantium quidem molestias iusto dicta ullam veniam!
+                            Architecto voluptate distinctio excepturi quaerat deleniti sed tempore harum rerum? Magnam
+                            molestiae animi eligendi aperiam!</p>
+
+                        <div class="about-titles">
+                            <p class="about-links current-link" onclick="openpart('skills')">MySkills</p>
+                            <p class="about-links" onclick="openpart('experience')">Experience</p>
+                            <p class="about-links" onclick="openpart('education')">Education</p>
+                        </div>
+                        <div class="about-contents current-tab" id="skills">
+                            <ul>
+                                <li><span>Web Developer</span><br>Make All Types of Websites</li>
+                                <li><span>Video Editor</span><br>Decent Video Editing Skills</li>
+                                <li><span>Freelancer</span><br>Like To Do Freelance Work</li>
+                            </ul>
+                        </div>
+                        <div class="about-contents" id="experience">
+                            <ul>
+                                <li><span>Web Development</span><br>Learning And Growing it from past 6 months. </li>
+                                <li><span>11/23-12/23 </span><br>Intership At Lapworkz Technology.</li>
+                            </ul>
+                        </div>
+                        <div class="about-contents" id="education">
+                            <ul>
+                                <li><span>2022</span><br>Currently Persuing B.tech From Parul University , Vadodara</li>
+                                <li><span>2022</span><br>Complete HSC from @PioneerSchool , Patan</li>
+                                <li><span>2020</span><br>Complet SSC from @schoolOfDevotion , Patdi</li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- -------------------Services Section------------------------- -->
+
+        <div class="services">
+            <div class="container">
+                <h1>Services Serve By Me.</h1>
+
+                <div class="service-list">
+                    <div>
+                        <img src="https://cdn-icons-png.flaticon.com/128/6062/6062646.png" alt="">
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus reiciendis aspernatur,
+                            possimus assumenda neque architecto. Ipsum autem explicabo excepturi obcaecati?</p>
+                        <a href="#">Know More</a>
+                    </div>
+                    <div>
+                        <img src="https://cdn-icons-png.flaticon.com/128/1179/1179069.png" alt="">
+                        <h2>Video Editing</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus reiciendis aspernatur,
+                            possimus assumenda neque architecto. Ipsum autem explicabo excepturi obcaecati?</p>
+                        <a href="#">Know More</a>
+                    </div>
+                    <div>
+                        <img src="https://cdn-icons-png.flaticon.com/128/4727/4727424.png" alt="">
+                        <h2>FreeLancing</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus reiciendis aspernatur,
+                            possimus assumenda neque architecto. Ipsum autem explicabo excepturi obcaecati?</p>
+                        <a href="#">Know More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- -------------------  Portfolio section ----------------------- -->
+
+        <div class="portfolio">
+            <div class="container">
+                <h1>My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="../portfolio-imgs/tictactoe.jpg" alt="tictactoe" class="work-image">
+                        <div class="layer">
+                            <h3>Simple TicTacToe Game </h3>
+                            <p>Made this Using ReactJS.</p>
+                            <a href="https://mytictactoeone.vercel.app/" target="_blank">
+                                <img src="https://cdn-icons-png.flaticon.com/128/7268/7268615.png" alt=""
+                                    class="work-image-second"></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="../portfolio-imgs/moviemania.jpg" alt="moviemaniaclone" class="work-image">
+                        <div class="layer">
+                            <h3>Movie Website Clone</h3>
+                            <p>Made this Using ReactJS.</p>
+                            <a href="https://moviemaniaclone.vercel.app/" target="_blank">
+                                <img src="https://cdn-icons-png.flaticon.com/128/7268/7268615.png" alt=""
+                                    class="work-image-second"></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <!-- <img src="../portfolio-imgs/work-3.png" alt="" class="work-image"> -->
+                        <!-- <a href=""><img src="https://cdn-icons-png.flaticon.com/128/7268/7268615.png" alt=""
+                                class="work-image-second"></a> -->
+                    </div>
+                </div>
+                <a href="https://github.com/GUJJU03?tab=repositories" target="_blank" class="btn">See More</a>
+            </div>
+        </div>
+
+
+
+        <!-- -------------------Contact Section----------------------------- -->
+
+        <div class="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="left-contact">
+                        <h1 class="contact-title">Get In Touch</h1>
+                        <p><img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-64.png"
+                                alt="">kushpatel3114@gmail.com</p>
+                        <p><img src="https://cdn1.iconfinder.com/data/icons/unicons-line-vol-3/24/forwaded-call-64.png"
+                                alt="">+91 63551 38528 <img
+                                src="https://cdn2.iconfinder.com/data/icons/social-micon/512/whatsapp-64.png" alt=""
+                                class="whatsapp">
+                        </p>
+                        <div class="social-media">
+                            <a href="https://www.github.com/GUJJU03"><img
+                                    src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/71-github-64.png"
+                                    alt="GITHUB"></a>
+                            <a href="https://www.github.com/GUJJU03"><img
+                                    src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-64.png"
+                                    alt="GITHUB"></a>
+                            <a href="https://www.github.com/GUJJU03"><img
+                                    src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_instagram-64.png  "
+                                    alt="GITHUB"></a>
+                        </div>
+                        <a href="../portfolio-imgs/Resumek.docx" download class="btn btns">Download CV</a>
+
+                    </div>
+                    <div class="right-contact">
+                        <form>
+                            <input type="text" name="Name" id="" placeholder="Your Full Name" required>
+                            <input type="email" name="Email" id="" placeholder="Your Email" required>
+                            <textarea name="AnyMessage" id="" rows="6" placeholder="Any Message"></textarea>
+                            <button type="submit" class="btn btns" id="submit" >Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        Copyright &#xa9; KUSH, Made By Me With GreatStack Tutorials.
+    </footer>
+
+
+    <!-------------------------- JavaScript Section ---------------------------------->
+    <script>
+        var tablinks = document.getElementsByClassName("about-links");
+        console.log(tablinks)
+        var tabcontents = document.getElementsByClassName("about-contents");
+        console.log(tabcontents);
+
+        function openpart(linkname) {
+            for (var i = 0; i < tablinks.length; i++) {
+                tablinks[i].classList.remove("current-link");
+            }
+            for (var i = 0; i < tabcontents.length; i++) {
+                tabcontents[i].classList.remove("current-tab");
+            }
+
+            event.currentTarget.classList.add("current-link")
+            document.getElementById(linkname).classList.add("current-tab");
+        }
+
+        // --------------------------javascript For small Screen (MenuBar). ----------------------
+
+        var menuubar = document.getElementById("menubar");
+
+        function closenav() {
+            menuubar.style.width = "0px";
+        }
+        function opennav() {
+            menuubar.style.width = "180px";
+        }
+
+
+        // -------------------------Submit Button Function--------------------------------------
+
+        const send = document.getElementById("submit")
+        console.log(send)
+
+        function reset(){
+
+        }
+
+    </script>
+    <!-- // javascript For small Screen. -->
+    <script>
+
+    </script>
+</body>
+
+</html>
