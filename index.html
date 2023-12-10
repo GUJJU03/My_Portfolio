@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="Portfolio.css">
+    <link rel="stylesheet" href="01_Portfolio.css">
 </head>
 
 <body>
@@ -18,10 +18,10 @@
                     <img src="./portfolio-imgs/logo2.png" alt="" class="logo">
                     <ul id="menubar">
                         <li class="NAV_LI"><a href="#">Home</a></li>
-                        <li class="NAV_LI"><a href="#">About</a></li>
-                        <li class="NAV_LI"><a href="#">Services</a></li>
-                        <li class="NAV_LI"><a href="#">Portfolio</a></li>
-                        <li class="NAV_LI"><a href="#">Contact</a></li>
+                        <li class="NAV_LI"><a href="#About">About</a></li>
+                        <li class="NAV_LI"><a href="#Services">Services</a></li>
+                        <li class="NAV_LI"><a href="#Portfolio">Portfolio</a></li>
+                        <li class="NAV_LI"><a href="#Contact">Contact</a></li>
                         <img src="https://cdn1.iconfinder.com/data/icons/line-awesome-vol-6/32/times-solid-64.png"
                             alt="" class="small_screen_nav li img" onclick="closenav()">
                     </ul>
@@ -40,7 +40,7 @@
     <!-- ---------------------About section------------------------------- -->
 
     <main>
-        <div class="about">
+        <div class="about" id="About">
             <div class="container">
                 <div class="row">
                     <div class="about-col-1">
@@ -48,7 +48,10 @@
                     </div>
                     <div class="about-col-2">
                         <h1>know More About Me</h1>
-                        <p>"Hello! 👋 I am a 2nd-year engineering student at Parul University, passionate about learning new skills. Currently, I am exploring the world of web development and have gained proficiency in HTML, CSS, nodeJS, and React. also have knowledge of programming languages like C , Java and pyhton. I enjoy freelancing and working on projects that increase my skills . Eager to continue learning and growing! 😊"</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor totam quas cum quidem
+                            voluptatem illo cumque. Vitae velit laudantium quidem molestias iusto dicta ullam veniam!
+                            Architecto voluptate distinctio excepturi quaerat deleniti sed tempore harum rerum? Magnam
+                            molestiae animi eligendi aperiam!</p>
 
                         <div class="about-titles">
                             <p class="about-links current-link" onclick="openpart('skills')">MySkills</p>
@@ -84,7 +87,7 @@
 
         <!-- -------------------Services Section------------------------- -->
 
-        <div class="services">
+        <div class="services" id="Services">
             <div class="container">
                 <h1>Services Serve By Me.</h1>
 
@@ -116,7 +119,7 @@
 
         <!-- -------------------  Portfolio section ----------------------- -->
 
-        <div class="portfolio">
+        <div class="portfolio" id="Portfolio">
             <div class="container">
                 <h1>My Work</h1>
                 <div class="work-list">
@@ -141,7 +144,7 @@
                         </div>
                     </div>
                     <div class="work">
-                        <!-- <img src="../portfolio-imgs/work-3.png" alt="" class="work-image"> -->
+                        <!-- <img src="./portfolio-imgs/work-3.png" alt="" class="work-image"> -->
                         <!-- <a href=""><img src="https://cdn-icons-png.flaticon.com/128/7268/7268615.png" alt=""
                                 class="work-image-second"></a> -->
                     </div>
@@ -154,7 +157,7 @@
 
         <!-- -------------------Contact Section----------------------------- -->
 
-        <div class="contact">
+        <div class="contact" id="Contact">
             <div class="container">
                 <div class="row">
                     <div class="left-contact">
@@ -167,15 +170,15 @@
                                 class="whatsapp">
                         </p>
                         <div class="social-media">
-                            <a href="https://www.github.com/GUJJU03"><img
+                            <a href="https://www.github.com/GUJJU03" target="_blank"><img
                                     src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/71-github-64.png"
                                     alt="GITHUB"></a>
-                            <a href="https://www.github.com/GUJJU03"><img
+                            <a href="https://www.linkedin.com/in/kush-patel-00030003k/" target="_blank"><img
                                     src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-64.png"
-                                    alt="GITHUB"></a>
-                            <a href="https://www.github.com/GUJJU03"><img
+                                    alt="LinkedIN"></a>
+                            <a href="https://www.instagram.com/kush._03/" target="_blank"><img
                                     src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_instagram-64.png  "
-                                    alt="GITHUB"></a>
+                                    alt="INSTA"></a>
                         </div>
                         <a href="./portfolio-imgs/Resumek.docx" download class="btn btns">Download CV</a>
 
